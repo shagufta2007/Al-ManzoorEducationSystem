@@ -1,0 +1,54 @@
+.core-values {
+  padding: 80px 10%;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.core-heading {
+  font-size: 36px;
+  color: #1d3557;
+  margin-bottom: 10px;
+}
+
+.core-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.core-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.core-card {
+  background: #ffffff;
+  padding: 35px 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.core-card:hover {
+  transform: translateY(-10px);
+  background: #1d3557;
+  color: #ffffff;
+}
+
+.core-icon {
+  font-size: 45px;
+  color: #457b9d;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.core-card:hover .core-icon {
+  color: #f1faee;
+}
+
+.core-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+}

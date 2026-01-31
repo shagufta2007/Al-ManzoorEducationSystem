@@ -1,0 +1,32 @@
+.mission-section {
+  padding: 80px 10%;
+  background-color: #f8fafc;
+  display: flex;
+  justify-content: center;
+}
+
+.mission-card {
+  background: #ffffff;
+  padding: 40px;
+  max-width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-6px);
+}
+
+.mission-card h2 {
+  font-size: 32px;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+
+.mission-card p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.7;
+}

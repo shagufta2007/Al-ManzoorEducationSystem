@@ -1,0 +1,54 @@
+.team-section {
+  padding: 80px 10%;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.team-heading {
+  font-size: 36px;
+  color: #1d3557;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.team-card {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.team-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Overlay */
+.team-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(29, 53, 87, 0.75);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  padding: 30px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Hover Effects */
+.team-card:hover .team-image {
+  transform: scale(1.1);
+}
+
+.team-card:hover .team-overlay {
+  opacity: 1;
+}

@@ -1,0 +1,65 @@
+.facilities-section {
+  padding: 80px 10%;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.facilities-title {
+  font-size: 36px;
+  color: #1D3557;
+  margin-bottom: 10px;
+}
+
+.facilities-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.facilities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card Design */
+.facility-card {
+  background: #ffffff;
+  padding: 35px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.facility-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon */
+.facility-icon {
+  font-size: 50px;
+  color: #457B9D;;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.facility-card h3 {
+  font-size: 22px;
+  color: #1D3557;
+  margin-bottom: 12px;
+}
+
+.facility-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .facilities-container {
+    grid-template-columns: 1fr;
+  }
+}

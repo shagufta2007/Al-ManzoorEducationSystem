@@ -1,0 +1,31 @@
+.news-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Main Content Layout */
+.news-main {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Left: News Grid */
+.news-left {
+  flex: 2;
+}
+
+/* Right: Sidebar */
+.news-right {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .news-main {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+}
